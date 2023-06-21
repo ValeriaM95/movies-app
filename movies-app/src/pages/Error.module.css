@@ -1,0 +1,9 @@
+.error_header,
+.error_return {
+  color: var(--font-main);
+  font-weight: 400;
+}
+
+.error_return a {
+  color: rgb(167, 139, 78);
+}

@@ -1,0 +1,32 @@
+.account {
+  margin: 5rem 0;
+}
+
+.account_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_wrapper p {
+  margin-left: 1rem;
+  color: var(--font-main);
+}
+
+.moviesList {
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.moviesList h1 {
+  color: var(--cards-bg-color);
+  text-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+.btn {
+  margin: 5rem 1rem 0 0;
+}
+
+.no_movies {
+  color: var(--font-main);
+}

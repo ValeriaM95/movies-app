@@ -1,0 +1,104 @@
+.movie_container {
+  background-color: var(--cards-bg-color);
+  width: auto;
+  height: auto;
+  margin: 1rem;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.movie_poster {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  /* min-height: 386px; */
+}
+
+.movie {
+  background-color: var(--cards-bg-color);
+  border-radius: 5px;
+  position: relative;
+}
+
+.movie_container a {
+  display: none;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 0 4px;
+}
+
+.movie_container:hover a {
+  display: block;
+}
+
+.movie_container a:hover {
+  background-color: #fff;
+  transition: all 0.3s linear;
+}
+
+.movie_description {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overview {
+  padding: 1rem;
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15rem;
+  transform: translateY(101%);
+  transition: transform 0.3s linear;
+}
+
+.movie_container:hover .overview {
+  transform: translateY(0);
+}
+
+.title {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #dddddd;
+}
+
+span {
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  padding: 0.3rem;
+  align-self: center;
+}
+
+.low {
+  color: rgb(219, 132, 132);
+}
+
+.high {
+  color: rgb(132, 219, 145);
+}
+
+.middle {
+  color: rgb(219, 197, 132);
+}
+
+.overview {
+  font-size: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 2.5rem 1.2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 5px 5px;
+  max-height: 100%;
+}

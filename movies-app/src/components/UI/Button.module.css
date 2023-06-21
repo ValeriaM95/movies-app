@@ -1,0 +1,16 @@
+.btn {
+  padding: 0.7rem 1.8rem;
+  margin-top: 2rem;
+  background-color: var(--color-primary);
+  color: var(--font-main);
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(194, 194, 88);
+  transition: background-color 0.2s linear;
+  color: var(--color-primary);
+}
